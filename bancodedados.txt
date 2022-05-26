@@ -1,0 +1,22 @@
+CREATE DATABASE IF NOT EXISTS eduverde;
+USE eduverde;
+
+CREATE TABLE IF NOT EXISTS cadastro (
+  id INT(11) AUTO_INCREMENT,
+  nome VARCHAR(100),
+  cpf INT (11),
+  email VARCHAR(100),
+  senha VARCHAR(50),
+  foto VARCHAR(),
+  PRIMARY KEY (id)
+);
+
+--CREATE TABLE IF NOT EXISTS curtida (
+ -- id INT(11) AUTO_INCREMENT,
+  --PRIMARY KEY (id)
+--);
+
+--CREATE TABLE IF NOT EXISTS comentario (
+  -- id INT(11) AUTO_INCREMENT,
+--  PRIMARY KEY (id)
+ -- );
