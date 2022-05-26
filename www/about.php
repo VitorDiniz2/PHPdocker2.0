@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="PT-BR">
   <head>
@@ -77,7 +80,7 @@
 
         <div class="text-end">
         <?php
-          if ( isset($_SESSION['user']) ){
+          if ( isset($_SESSION['user']["id"]) ){
             echo "<a class='nav-link px-2 text-black' href='../logout.php'>Logout</a>";
           }else{
             echo "<a class='nav-link px-2 text-white' href='../login.php'>Login</a>";

@@ -18,7 +18,9 @@ if(isset($_POST["btnEntrar"]) && $con){
     $stmt->execute();
 
     if($stmt->rowCount() > 0){
-        echo "<script>alert('Login Realizado com Sucesso!');location.href='../index.php'</script>";
+        session_start();
+        $_SESSION["user"] = $stmt->fetch(\PDO::FETCH_ASSOC);
+        echo "<script>location.href='../index.php'</script>";
     } else{
         echo "<script>alert('E-mail ou senha incorretos!');location.href='../login.php'</script>";
     }

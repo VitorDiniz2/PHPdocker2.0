@@ -25,7 +25,7 @@ if(isset($_POST["btnRegistrar"]) && $con){
     
 
     if($stmt->rowCount() > 0){
-        echo "<script>alert('Cadastro realizado Sucesso!');location.href='../login.php'</script>";
+        echo "<script>alert('Cadastro realizado com sucesso!');location.href='../login.php'</script>";
     } else{
         echo "<script>alert('Erro ao cadastrar!');location.href='../cadastro.php'</script>";
     }
