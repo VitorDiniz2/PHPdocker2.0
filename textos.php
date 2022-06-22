@@ -16,7 +16,7 @@ session_start();
      
 
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -103,26 +103,26 @@ session_start();
                     <div class="row gx-5">
                         <div class="col-lg-6">
                             <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="textos/texto1.php">Cuidado do Planeta</a>
+                                <img class="img-fluid rounded-3 mb-3" src="imagens/reciclagemcapa.png" alt="..." />
+                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="textos/texto1.php">Reciclagem</a>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="textos/texto2.php">Fazendo uma composteira</a>
+                                <img class="img-fluid rounded-3 mb-3" src="imagens/organicocapa.png" alt="..." />
+                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="textos/texto2.php">Lixo Orgânico</a>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="position-relative mb-5 mb-lg-0">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="textos/texto3.php">Titulo</a>
+                                <img class="img-fluid rounded-3 mb-3" src="imagens/agualuzcapa.png" alt="..." />
+                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="textos/texto3.php">Economizar Água e Luz</a>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="position-relative">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="textos/texto4.php">Titulo</a>
+                                <img class="img-fluid rounded-3 mb-3" src="imagens/economiacapa.png" alt="..." />
+                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="">Economizando e reciclando</a>
                             </div>
                         </div>
                     </div>

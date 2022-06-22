@@ -107,7 +107,7 @@ session_start();
           <div class="carousel-caption text-start" >
             <h1>Bem Vindo ao Eduverde!</h1>
             <p>Aqui você aprende tudo sobre sustentabilidade de forma divertida e prática.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Leia Mais</a></p>
+            <p><a class="btn btn-lg btn-primary" href="textos.php">Leia Mais</a></p>
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@ session_start();
           <div class="carousel-caption">
             <h1>Aqui você aprende a preservar o planeta de uma forma diferente.</h1>
             <p>Com dicas, textos educativos e vídeos.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Leia Mais</a></p>
+            <p><a class="btn btn-lg btn-primary" href="textos.php">Leia Mais</a></p>
           </div>
         </div>
       </div>
@@ -131,7 +131,7 @@ session_start();
           <div class="carousel-caption text-end">
             <h1>Temos os melhores conteúdos sobre sustentabilidade</h1>
             <p>Comece a fazer sua parte a partir de agora.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Começar</a></p>
+            <p><a class="btn btn-lg btn-primary" href="textos.php">Começar</a></p>
           </div>
         </div>
       </div>
@@ -159,7 +159,10 @@ session_start();
         <h2 class="featurette-heading">Reciclagem. <span class="text-muted">Aqui você aprende mais sobre como
           reciclar!
         </span></h2>
-        <p class="lead">Texto</p>
+        <p class="lead">O EduVerde traz diversos conteúdos para você, um dos principais temas 
+          abordados dentro da nossa plataforma é a reciclagem, pois muitas das pessoas não sabem
+          ou possuem pouca noção de como realiza-lá.
+        </p>
       </div>
       <div class="col-md-5">
       <img class="d-block w-100" src="imagens/texto1.png">
@@ -170,8 +173,10 @@ session_start();
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Titulo <span class="text-muted">Subtitulo.</span></h2>
-        <p class="lead">texto</p>
+        <h2 class="featurette-heading">Você é Sustentável? <span class="text-muted">Patricando Sustentabilidade</span></h2>
+        <p class="lead">Você tem costumes sustentáveis, ajuda o planeta de alguma forma? Se não esta 
+          na hora de começar a repensar suas atitudes e começar a se tornar uma pessoa mais sustentável.
+        </p>
       </div>
       <div class="col-md-5 order-md-1">
       <img class="d-block w-100" src="imagens/texto2.png">
@@ -197,10 +202,10 @@ session_start();
           <img class="d-block w-100" src="imagens/post1.png">
 
             <div class="card-body">
-              <p class="card-text">Texto.</p>
+              <p class="card-text">Aprendendo a reciclar!</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a type="button" href="blog/blog.php" class="btn btn-sm btn-outline-success">Ler</a>
+                  <a type="button" href="textos/texto1.php" class="btn btn-sm btn-outline-success">Ler</a>
                 </div>
                 <small class="text-muted">Postado em 15 de Maio de 2022</small>
               </div>
@@ -211,10 +216,10 @@ session_start();
           <div class="card shadow-sm">
           <img class="d-block w-100" src="imagens/post03.png">
             <div class="card-body">
-              <p class="card-text">Texto.</p>
+              <p class="card-text">Cuidando do planeta!</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a type="button" href="blog/blog2.php" class="btn btn-sm btn-outline-success">Ler</a>
+                <a type="button" href="" class="btn btn-sm btn-outline-success">Ler</a>
                 </div>
                 <small class="text-muted">Postado em: 10 de Abril de 2022</small>
               </div>
@@ -226,10 +231,10 @@ session_start();
           <img class="d-block w-100" src="imagens/post2.jpg">
 
             <div class="card-body">
-              <p class="card-text">Texto.</p>
+              <p class="card-text">Vantagens da reciclagem!</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a type="button" href="blog/blog3.php" class="btn btn-sm btn-outline-success">Ler</a>
+                <a type="button" href="" class="btn btn-sm btn-outline-success">Ler</a>
                 </div>
                 <small class="text-muted">Postado em: 9 de Maio de 2022</small>
               </div>

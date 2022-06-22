@@ -102,24 +102,18 @@ session_start();
                     <div class="row gx-5">
                         <div class="col-xl-8">
                             <!-- FAQ Accordion 1-->
-                            <h2 class="fw-bolder mb-3">EduVerde &amp; Posts</h2>
+                            <h2 class="fw-bolder mb-3">Sobre o EduVerde</h2>
                             <div class="accordion mb-5" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Pergunta 1</button></h3>
-                                    <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>O Eduverde...</strong>
-                                            texto...
-                                            <code></code>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Pergunta 2</button></h3>
+                            <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Como surgiu a ideia do EduVerde?</button></h3>
                                     <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong>Texto...</strong>
+                                            <strong>Foi proposto para nós, alunos do 5° período de Sistemas de Informações, 
+                                              desenvolver aplicações sustentáveis para o trabalho interdisciplinar. Nosso grupo decidiu
+                                              desenvolver o EduVerde pois muitas pessoas são bastante desinformadas sobre esse tipo de
+                                              conteúdo, então decidimos criar esse portal de infromações para todos ficarem cientes da importância
+                                              da sustentabilidade.
+                                            </strong>
                                           
                                             <code></code>
                                             
@@ -127,10 +121,27 @@ session_start();
                                     </div>
                                 </div>
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Pergunta 2</button></h3>
+                                    <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Por que EduVerde?</button></h3>
+                                    <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>Decidimos colocar o nome de EduVerde no nosso projeto pois Edu vem de educar e educação é
+                                              o Verde seria uma referência a sustentabilidade, por isso o nome EduVerde.
+                                            </strong>
+                                          
+                                            <code></code>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Qual é a proposta de valor de vocês?</button></h3>
                                     <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong>Mais texto...</strong>
+                                            <strong>O EduVerde trás como proposta de valor conscientizar e ajudar todos quando se 
+                                              trata de sustentabilidade. Vamos desenvolver e trazer os melhores conteúdos para você, estar
+                                              sempre informado sobre tudo que esta acontecendo no planeta e dicas de como você pode 
+                                              colaborar com ele nem que seja nos mínimos detalhes.
+                                            </strong>
                                          
                                             <code></code>
                                            
@@ -139,13 +150,16 @@ session_start();
                                 </div>
                             </div>
                             <!-- FAQ Accordion 2-->
-                            <h2 class="fw-bolder mb-3">Sobre o site</h2>
+                            <h2 class="fw-bolder mb-3">Site &amp; Posts</h2>
                             <div class="accordion mb-5 mb-xl-0" id="accordionExample2">
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1</button></h3>
+                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Como funciona os posts de vocês?</button></h3>
                                     <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
                                         <div class="accordion-body">
-                                            <strong>Resposta...</strong>
+                                            <strong>Nossos posts são elaborados com muita delicadeza e dedicação pelos nossos desenvolvedores,
+                                              eles extraem os melhores conteúdos sobre o tema sustentabilidade, adaptam eles e publicam no nosso site
+                                              para vocês!
+                                            </strong>
                                         
                                             <code></code>
                                             
@@ -153,27 +167,19 @@ session_start();
                                     </div>
                                 </div>
                                 <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1</button></h3>
+                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Eu posso criar algum post?</button></h3>
                                     <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
                                         <div class="accordion-body">
-                                            <strong>Resposta...</strong>
+                                            <strong>Futuramente vamos desenvolver a opção para diversas pessoas criarem conteúdo dentro da nossa
+                                              plataforma, entretanto de ínicio os conteúdos do site são gerados pelos desenvolvedores apenas.
+                                            </strong>
                                         
                                             <code></code>
                                             
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1</button></h3>
-                                    <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
-                                        <div class="accordion-body">
-                                            <strong>Resposta...</strong>
-                                        
-                                            <code></code>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                         <div class="col-xl-4">
@@ -209,30 +215,30 @@ session_start();
                     <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
                         <div class="col mb-5 mb-5 mb-xl-0">
                             <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                                <h5 class="fw-bolder">Vitor Diniz</h5>
-                                <div class="fst-italic text-muted">Founder &amp; CEO</div>
+                                <img class="img-fluid rounded-circle mb-4 px-4" src="icones/augu.jpg" alt="..." />
+                                <h5 class="fw-bolder">Augusto Oliveira</h5>
+                                <div class="fst-italic text-muted">CEO &amp; Fundador</div>
                             </div>
                         </div>
                         <div class="col mb-5 mb-5 mb-xl-0">
                             <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
-                                <h5 class="fw-bolder">Augusto Oliveira</h5>
-                                <div class="fst-italic text-muted">CFO</div>
+                                <img class="img-fluid rounded-circle mb-4 px-4" src="icones/vitor.jfif" alt="..." />
+                                <h5 class="fw-bolder">Vitor Diniz</h5>
+                                <div class="fst-italic text-muted">Desenvolvedor 1</div>
                             </div>
                         </div>
                         <div class="col mb-5 mb-5 mb-sm-0">
                             <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                                <img class="img-fluid rounded-circle mb-4 px-4" src="icones/giel.jpg" alt="..." />
                                 <h5 class="fw-bolder">Gierly Barbosa</h5>
-                                <div class="fst-italic text-muted">Operations Manager</div>
+                                <div class="fst-italic text-muted">Desenvolvedor 2</div>
                             </div>
                         </div>
                         <div class="col mb-5">
                             <div class="text-center">
-                                <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                                <img class="img-fluid rounded-circle mb-4 px-4" src="icones/missia.jpg" alt="..." />
                                 <h5 class="fw-bolder">Missia Tamela</h5>
-                                <div class="fst-italic text-muted">CTO</div>
+                                <div class="fst-italic text-muted">Desenvolvedor 3</div>
                             </div>
                         </div>
                     </div>
